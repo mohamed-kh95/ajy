@@ -1,0 +1,12 @@
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+@import 'scss/helpers/var';
+@import 'scss/helpers/mixin';
+@import 'scss/component/button';
+@import 'scss/helpers/classes';
+@import 'scss/layout/header';
+@import 'scss/layout/nav';
+@import 'scss/layout/homepage';

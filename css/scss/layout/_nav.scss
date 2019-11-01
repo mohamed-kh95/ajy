@@ -1,0 +1,45 @@
+nav {
+    background-color: $mainColor!important;
+    display: flex;
+    align-items: center;
+    z-index: 9999;
+    width: 100%;
+    .navbar-brand {
+        h3 {
+            color: #FFF;
+            text-transform: uppercase;
+            position: relative;
+            left: 40px;
+            
+            sub {
+                color: $redColor;
+                text-transform: none;
+            }
+            &:before {
+                content: '';
+                position: absolute;
+                top: 5px;
+                left: -35px;
+                width: 30px;
+                height: 30px;
+                background-color: $mainColor;
+                box-shadow: -5px -5px 0px $redColor,
+                             1px 1px 5px #000;
+                
+            }
+        }
+    }
+    
+    .navbar-nav {
+        .nav-link {
+            color: #FFF!important;
+            font-weight: 600;
+            &:hover,
+            &.active {
+                color: $redColor!important;
+                
+            }
+        }
+    }
+    
+}

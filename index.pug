@@ -1,0 +1,440 @@
+doctype
+html(dir='')
+    head
+        meta(charset='UTF-8')
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Pug &amp; Sass
+        include help/style
+    body
+        //- Start Header
+        header.header
+            .over
+            .container
+                div(class="row whyus")
+                    
+                    div(class="col-12")
+                        .head
+                            .header-brand
+                                h3.h2 Aj
+                                    sub y
+                                h3.h2 We Are <span>Creative<span>
+                            .header-text 
+                                h3.h2 Why <span>Us?<span>
+                                h4 We Are Professional
+                                span.clients 1000+ Clients, <span>Live Support</span>
+                    div.icon
+                        i(class="fa fa-chevron-down fa-2x")
+        //- Start Nav Bar
+        include sitesections/nav
+        //- End Nav
+        //- Start Welcome Section
+        section.welcome
+            .container
+                .row
+                    div(class="col-md-6")
+                        .w-img
+
+                    div(class="col-md-6")
+                        .w-text
+                            h3 Welcome Here
+                            p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi qui itaque <span> praesentium </span> omnis maiores, distinctio excepturi dolorem iure sint voluptas, pariatur <span>architecto unde</span> odio non, illum assumenda dignissimos? Quas, esse. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            .ceo
+                span Ceo
+                span Johney Parl
+        //- End Welcome Section
+        //- Start What Is Ajy Section
+        section.what-is
+            .container
+                .row
+                    div(class="col-12")
+                        .what-header
+                            h3 What Is Ajy?
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    div(class="col-12")
+                        .features
+                            .row
+                                div(class="col-md-4")
+                                    .feat
+                                        h4 We Are Professional
+                                        p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae consequatur iusto optio officiis ipsa rerum inventore laboriosam illo debitis error quidem unde magni obcaecati nemo natus, facilis quaerat, id quas.
+                                div(class="col-md-4")
+                                    .feat
+                                        h4 We Are Professional
+                                        p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae consequatur iusto optio officiis ipsa rerum inventore laboriosam illo debitis error quidem unde magni obcaecati nemo natus, facilis quaerat, id quas.
+                                div(class="col-md-4")
+                                    .feat
+                                        h4 We Are Professional
+                                        p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae consequatur iusto optio officiis ipsa rerum inventore laboriosam illo debitis error quidem unde magni obcaecati nemo natus, facilis quaerat, id quas.
+                        
+
+        //- End What Is Ajy Section
+        //- Start Counter
+        section.counter
+            .container
+                .row
+                    div(class="col-md-4")
+                        .numbers
+                            span.num 64
+                            span.title Awards
+                    div(class="col-md-4")
+                        .numbers
+                            span.num 1446
+                            span.title Happy Clients
+                    div(class="col-md-4")
+                        .numbers
+                            span.num 638
+                            span.title Project Done!
+        //- End Counter  
+        //- Start Offering
+        section.offering
+            .container
+                .row
+                    div(class="col-12")
+                        .offering-header
+                            h3 We Are Offering...
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    div(class="col-md-4")
+                        .offers
+                            .icon
+                                i(class="fa fa-palette fa-3x fa-fw")
+                            h3 Designing
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    div(class="col-md-4")
+                        .offers
+                            .icon
+                                i(class="fa fa-pencil-alt fa-3x fa-fw")
+                            h3 Development
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    div(class="col-md-4")
+                        .offers
+                            .icon
+                                i(class="fa fa-industry fa-3x fa-fw")
+                            h3 Marketing
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    div(class="col-12")
+                        .other-offer-header
+                            h3.h5 Other Services We Offer
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        .other-offers
+                            .row
+                                div(class="col-md-4")
+                                    .o-offers
+                                        .icon-head
+                                            i(class="fa fa-camera fa-2x fa-fw")
+                                            h3 Photography
+                                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                div(class="col-md-4")
+                                    .o-offers
+                                        .icon-head
+                                            i(class="fa fa-coins fa-2x fa-fw")
+                                            h3 Data
+                                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                div(class="col-md-4")
+                                    .o-offers
+                                        .icon-head
+                                            i(class="fa fa-handshake fa-2x fa-fw")
+                                            h3 Custom Work
+                                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+        //- End Offering 
+        //- Start Some Works
+        section.some-works
+            .container
+                .row
+                    div(class="col-12")
+                        .works-header
+                            h3 Some Of Latest Work
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    div(class="col-12")
+                        .works-list
+                            ul.list-unstyled
+                                li(class="active" data-show='all') All
+                                li(data-show='.design') Design
+                                li(data-show='.develop') Development
+                                li(data-show='.seo') SEO
+                                li(data-show='.others') Others
+                    div(class="col-sm-6 col-md-4")
+                        div(class="work-image develop")
+                            img(src="images/p5.jpg" alt='')
+                    div(class="col-sm-6 col-md-4")
+                        div(class="work-image seo")
+                            img(src="images/p6.jpg" alt='')
+                    div(class="col-sm-6 col-md-4")
+                        div(class="work-image others")
+                            img(src="images/p7.jpg" alt='')
+                    div(class="col-sm-6 col-md-4")
+                        div(class="work-image design")
+                            img(src="images/p8.jpg" alt='')
+                    div(class="col-sm-6 col-md-4")
+                        div(class="work-image develop")
+                            img(src="images/p2.jpg" alt='')
+                    div(class="col-sm-6 col-md-4")
+                        div(class="work-image seo")
+                            img(src="images/p10.jpg" alt='')
+                    button(class="btn btn-danger main-btn") View More
+                    
+        //- End Some Works
+        //- Start FeedBack
+        section.feedback
+            .container
+                .row
+                    div(class="col-12")
+                        .feed-header
+                            h3 Clients Feedback
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor .
+                    //- Start Slider
+                    .col-12
+                        div(class="bd-example feeds-slider")
+                            div(id="carouselExampleCaptions" class="carousel slide" data-ride="carousel")
+                                div(class="carousel-inner row")
+                                    div(class="col-12 carousel-item active")
+                                        .feed-text
+                                            p Nulla vitae elit libero, a pharetra Lorem ipsum dolor augue mollis interdum. Lorem ipsum dolor sit consectetur adipiscing elit. amet, consectetur adipiscing elit.
+                                            h3 <span>By</span> John Deo
+                                    div(class="col-12 carousel-item")
+                                        .feed-text
+                                            p Lorem ipsum dolor Nulla vitae elit libero, a pharetra augue mollis interdum. Lorem ipsum dolor consectetur adipiscing elit.  sit amet, consectetur adipiscing elit.
+                                            h3 <span>By</span> Mark Marten
+                                    div(class="col-12 carousel-item")
+                                        .feed-text
+                                            p Lorem ipsum dolor Nulla vitae elit libero, a pharetra augue mollis interdum. Lorem ipsum dolor consectetur adipiscing elit.  sit amet, consectetur adipiscing elit.
+                                            h3 <span>By</span> Kamal Ahmed
+                                    
+                                a(class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev")
+                                    span(class="carousel-control-prev-icon" aria-hidden="true")
+                                    span(class="sr-only") Previous
+                                a(class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next")
+                                    span(class="carousel-control-next-icon" aria-hidden="true")
+                                    span(class="sr-only") Next
+                    //- End Slider
+        //- End FeedBack
+        //- Start Meet Our Leaders
+        section.meet-leaders
+            .container
+                .row
+                    div(class="col-12")
+                        .meet-header
+                            h3 Meet Our Leaders
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                    div(class="col-md-4")
+                        .leaders
+                            span
+                            span
+                            span
+                            span
+                            .over
+                                h4 Alex J
+                                span Designer
+                                .icons
+                                    i(class="fab fa-facebook fa-fw")
+                                    i(class="fab fa-twitter fa-fw")
+                            img(src='images/leader1.jpg')
+                    div(class="col-md-4")
+                        .leaders
+                            span
+                            span
+                            span
+                            span
+                            .over
+                                h4 Poul
+                                span It
+                                .icons
+                                    i(class="fab fa-facebook fa-fw")
+                                    i(class="fab fa-twitter fa-fw")
+                            img(src='images/leader2.jpg')
+                    div(class="col-md-4")
+                        .leaders
+                            span
+                            span
+                            span
+                            span
+                            .over
+                                h4 Jessie Adrian
+                                span CEO
+                                .icons
+                                    i(class="fab fa-facebook fa-fw")
+                                    i(class="fab fa-twitter fa-fw")
+                            img(src='images/leader3.jpg')
+        //- End Meet Our Leaders
+        //- Start Price
+        section.price-pack
+            .overlay
+            .container
+                .row
+                    div(class="col-12")
+                        .price-text
+                            h3 Price Packinges
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    div(class="col-md-4")
+                        .price
+                            span
+                            h4 Starter
+                            span.dollar $249
+                            button(class="btn btn-danger main-btn") Details
+                    div(class="col-md-4")
+                        .price
+                            span
+                            h4 Bussiness
+                            span.dollar $449
+                            button(class="btn btn-danger main-btn") Details
+                    div(class="col-md-4")
+                        .price
+                            span
+                            h4 Professional
+                            span.dollar $749
+                            button(class="btn btn-danger main-btn") Details
+        //- End Price
+        //- Start Blog
+        section.blog
+            .container
+                .row
+                    div(class="col-12")
+                        .blog-header
+                            h3 BLog Posts
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    div(class="col-md-6")
+                        div(class="card")
+                            img(src="images/p5.jpg" class="card-img-top" alt=" ")
+                            div(class="card-body")
+                                h5(class="card-title") Post Title
+                                p(class="card-text") Some quick example text to build on the card title and make up the bulk of the card's content.
+                            div(class="card-body")
+                                a(href="#" class="card-link") 
+                                    i(class="fa fa-clock fa-fw")
+                                    | 29/7/2019
+                                    span
+                                a(href="#" class="card-link") 
+                                    i(class="fas fa-comment fa-fw")
+                                    | 41 Comments
+                                    span
+                    div(class="col-md-6")
+                        div(class="card")
+                            img(src="images/p9.jpg" class="card-img-top" alt=" ")
+                            div(class="card-body")
+                                h5(class="card-title") Post Title
+                                p(class="card-text") Some quick example text to build on the card title and make up the bulk of the card's content.
+                            div(class="card-body")
+                                a(href="#" class="card-link") 
+                                    i(class="fa fa-clock fa-fw")
+                                    | 1/10/2019
+                                    span
+                                a(href="#" class="card-link") 
+                                    i(class="fas fa-comment fa-fw")
+                                    | 86 Comments
+                                    span
+                    div(class="col-md-6")
+                        div(class="card")
+                            img(src="images/p8.jpg" class="card-img-top" alt=" ")
+                            div(class="card-body")
+                                h5(class="card-title") Post Title
+                                p(class="card-text") Some quick example text to build on the card title and make up the bulk of the card's content.
+                            div(class="card-body")
+                                a(href="#" class="card-link") 
+                                    i(class="fa fa-clock fa-fw")
+                                    | 14/2/2019
+                                    span
+                                a(href="#" class="card-link") 
+                                    i(class="fas fa-comment fa-fw")
+                                    | 54 Comments
+                                    span
+                    div(class="col-md-6")
+                        div(class="card")
+                            img(src="images/p7.jpg" class="card-img-top" alt=" ")
+                            div(class="card-body")
+                                h5(class="card-title") Post Title
+                                p(class="card-text") Some quick example text to build on the card title and make up the bulk of the card's content.
+                            div(class="card-body")
+                                a(href="#" class="card-link") 
+                                    i(class="fa fa-clock fa-fw")
+                                    | 23/3/2019
+                                    span
+                                a(href="#" class="card-link") 
+                                    i(class="fas fa-comment fa-fw")
+                                    | 25 Comments
+                                    span
+                    button(class="btn btn-danger main-btn") View All
+        //- End Blog
+        
+        //- Start Clients
+        section.feature-clients
+            .container
+                .row
+                    div(class="col-12")
+                        .clients-header
+                            h3 Featured Clients
+                    div(class="col-6 col-md-3")
+                        .clinet
+                            span(class='title' data-text='Google') Google
+                    div(class="col-6 col-md-3")
+                        .clinet
+                            span(class='title' data-text='ebay') ebay
+                    div(class="col-6 col-md-3")
+                        .clinet
+                            span(class='title' data-text='PayPal') PayPal
+                    div(class="col-6 col-md-3")
+                        .clinet
+                            span(class='title' data-text='flickr') flickr
+        //- End Clients
+        //- Start Contact US
+        section.contact-us
+            .overlay
+            .container
+                .row
+                    div(class="col-md-6")
+                        .contact-text
+                            h3 Contact Us
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            span 
+                                i(class="fa fa-phone fa-fw") 
+                                |  +322 2412 24123
+                            span
+                                i(class="fa fa-map-marker-alt fa-fw") 
+                                |  4 Office, Street No 2, Parkview, Sydney.
+                            .map
+                                iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424146.1106648725!2d150.6510957076973!3d-33.847355108130955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2sSydney%20NSW%2C%20Australia!5e0!3m2!1sen!2seg!4v1571970726263!5m2!1sen!2seg" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="")
+                    div(class="col-md-6")
+                        form
+                            div
+                                input(class="user" id='username' type="text")
+                                label(for="username") User Name
+                            div
+                                input(class="email" id='email' type="email")
+                                label(for="email") Email
+                            div
+                                textarea#textarea
+                                label(for="textarea") Message
+                            input(type="submit" value="Send" class="main-btn")
+
+
+        //- End Contact US
+        //- Start Footer
+        footer
+            .container-fluid
+                .logo
+                    h3 Aj
+                        sub y
+                .social
+                    i(class="fab fa-facebook fa-fw")
+                    i(class="fab fa-twitter fa-fw")
+                    i(class="fab fa-linkedin fa-fw")
+                    i(class="fab fa-instagram fa-fw")
+                .rights
+                    span &copy; All Rights Reserved.
+
+        //- End Footer
+        //- Go Up
+        .up
+            i(class="fa fa-chevron-up fa-2x fa-fw")
+        //- End Go Up
+        //- Start Spinner
+        .overlay-spin
+            div(class="sk-folding-cube")
+                div(class="sk-cube1 sk-cube")
+                div(class="sk-cube2 sk-cube")
+                div(class="sk-cube4 sk-cube")
+                div(class="sk-cube3 sk-cube")
+        //- End Spinner
+        include help/script
+        
+        
